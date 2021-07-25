@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <h1>card maker 시작할거야~</h1>
+    <h1>Hello </h1>
   );
 }
 
