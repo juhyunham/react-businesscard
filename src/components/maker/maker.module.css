@@ -1,39 +1,21 @@
 @value makerGreen, makerWhite, makerLightPink from '../../common/colors.css';
+@value mediaQuery from '../../common/size.css';
 
-.login {
-	width: 30em;
-	text-align: center;
+.maker {
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+}
+
+.container {
+	display: flex;
+	flex: 1;
 	background-color: makerWhite;
 }
 
-.list {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	list-style: none;
-	padding: 0.5rem;
-	box-sizing: border-box;
-}
-
-.item {
-	margin-bottom: 0.5em;
-}
-
-.button {
-	width: 100%;
-	height: 2.5em;
-	font-size: 1.2rem;
-	border-radius: 1.2rem;
-	background-color: transparent;
-	cursor: pointer;
-	border: 0.2rem solid makerGreen;
-	outline: 0;
-	box-sizing: border-box;
-}
-
-.button:hover {
-	background-color: makerLightPink;
+@media screen and (max-width: mediaQuery) {
+	.container {
+		flex-direction: column
+	}
 }
