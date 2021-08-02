@@ -6,7 +6,7 @@ import Maker from './components/maker/maker'
 function App({ FileInput, authService, cardRepository}) {
   return (
     <div className={styles.app}>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/react-businesscard">
         <Switch>
           <Link to="/"></Link>
           <Route exact={true} path="/">
