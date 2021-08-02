@@ -21,5 +21,6 @@
 @media screen and (max-width: mediaQuery) {
 	.editor {
 		border-right: 0;
+		border-bottom: 1px solid makerLightGrey;
 	}
 }
