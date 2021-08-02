@@ -46,7 +46,7 @@ const CardEditForm = ({ FileInput , card , updateCard, deleteCard }) => {
 			<option value="colorful">colorful</option>
 		</select>
 		<input ref={titleRef} className={styles.input} type="text" name="title" value={title} onChange= {onChange}/>
-		<input ref={emailRef}className={styles.input}type="text" name="email" value={email} onChange= {onChange}/>
+		<input ref={emailRef}className={styles.input} type="email" name="email" value={email} onChange= {onChange}/>
 		<textarea ref={messageRef} className={styles.textarea} name="message" cols="30" rows="10" value={message} onChange= {onChange}></textarea>
 		<div className={styles.fileInput}>
 			<FileInput name = {fileName} onFileChange = {onFileChange} />
