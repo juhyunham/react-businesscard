@@ -2,7 +2,7 @@
   "name": "react-card-maker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://juhyunham.github.io/react-card-maker",
+  "homepage": "https://myusername.github.io/react-card-maker",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
