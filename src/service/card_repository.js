@@ -1,4 +1,3 @@
-
 import firebaseApp from "./firebase"
 
 class CardRepository {
@@ -7,7 +6,7 @@ class CardRepository {
 	}
 
 	removeCard(userId, card) {
-		firebaseApp.database().remove(`${userId}/cards/${card.id}`).set(card);
+		firebaseApp.database().ref(`${userId}/cards/${card.id}`).remove();
 	}
 }
 
