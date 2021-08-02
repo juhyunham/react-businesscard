@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-businesscard/static/css/main.8cce8330.chunk.css",
-    "main.js": "/react-businesscard/static/js/main.de260357.chunk.js",
-    "main.js.map": "/react-businesscard/static/js/main.de260357.chunk.js.map",
+    "main.js": "/react-businesscard/static/js/main.20d75b85.chunk.js",
+    "main.js.map": "/react-businesscard/static/js/main.20d75b85.chunk.js.map",
     "runtime-main.js": "/react-businesscard/static/js/runtime-main.3bcc9014.js",
     "runtime-main.js.map": "/react-businesscard/static/js/runtime-main.3bcc9014.js.map",
     "static/js/2.7a1f20f9.chunk.js": "/react-businesscard/static/js/2.7a1f20f9.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.3bcc9014.js",
     "static/js/2.7a1f20f9.chunk.js",
     "static/css/main.8cce8330.chunk.css",
-    "static/js/main.de260357.chunk.js"
+    "static/js/main.20d75b85.chunk.js"
   ]
 }
