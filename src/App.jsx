@@ -8,10 +8,10 @@ function App({ FileInput, authService, cardRepository}) {
     <div className={styles.app}>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/react-businesscard">
+          <Route exact={true} path="/">
             <Login authService = {authService}/>
           </Route>
-          <Route path="/react-businesscard/maker">
+          <Route path="/maker">
             <Maker FileInput= {FileInput} authService = {authService} cardRepository= {cardRepository}/>
           </Route>
         </Switch>
