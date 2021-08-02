@@ -6,7 +6,7 @@ import Maker from './components/maker/maker'
 function App({ FileInput, authService, cardRepository}) {
   return (
     <div className={styles.app}>
-      <HashRouter basename="/react-businesscard">
+      <HashRouter>
         <Switch>
           <Route exact={true} path="/">
             <Login authService = {authService}/>
