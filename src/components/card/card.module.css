@@ -1,4 +1,4 @@
-@value makerShadow, makerBlack, makerWhite, makerColorful, makerWheat from '../../common/colors.css';
+@value makerShadow, makerBlack, makerLightGrey, makerWhite, makerColorful, makerWheat from '../../common/colors.css';
 
 .card {
 	display: flex;
@@ -23,6 +23,17 @@
 
 .card.colorful {
 	background: makerColorful;
+}
+
+.empty_avatar {
+	display: flex;
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	background-color: makerLightGrey;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 .avatar {
